@@ -1,5 +1,5 @@
 *{
-        font-size: 30px;
+        font-size: 20px;
         font-weight: 450;
 }
 
@@ -7,16 +7,31 @@ canvas{
     border: 1px solid black;
     background-color: rgba(240, 248, 255, 0);
 }
+.container{
+    padding: 0;
+}
 body{
-    width: auto;
+    max-width: 750px;
     margin: 20px auto;
-    padding: 20px;
+    padding: 8px;
 }
 .table{
     width: 100%;
 }
 th{
+    font-size: 15px;
     font-weight: 700;
+}
+tr{
+    font-size: 15px;
+}
+.row{
+    width: 750px;
+
+}
+.fix{
+    position: fixed;
+    bottom: 65px;
 }
 #mess{
     /* padding-bottom: 20px ; */
@@ -35,12 +50,9 @@ th{
 .number{
     border-radius: 20px;
     border: 1px solid rgb(124, 124, 124);
+    /* padding: 10px; */
 }
 #numbers{
     margin-bottom: 10px;
-}
-.fix{
-    position: fixed;
-    bottom: 65px;
-    width: 100%;
+    width: auto;
 }
