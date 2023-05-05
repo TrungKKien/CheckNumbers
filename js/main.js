@@ -1,7 +1,7 @@
 $("#play").click(function () { 
     $(".show").removeClass("show");
-    // alert("Tìm 4 số giống với đề bài")
     $(".fix").addClass("show");
+    // $('table td').text('');
     var random = ranDomArr();
     playGame(random)
 });
@@ -51,7 +51,11 @@ function playGame(random) {
             cityCell.innerHTML = vitri;
                 
             if(dung == 4 && vitri == 4){
+                $(".show").removeClass("show");
+
                 alert(random + " ==>> you wwin");
+                $("#lamlai").addClass("show");
+
             }
             // console.log(dung);
         }else{
@@ -64,7 +68,12 @@ function playGame(random) {
         $("#mess").html(input.join(""));     
     });
 }
-    
+$("#lamlai").click(function(){
+    location.reload();
+    // $(".show").removeClass("show");
+    // $(".play").addClass("show");
+
+})
 function ranDomArr(){
     var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
     var randomNumbers = [];

@@ -18,13 +18,14 @@
             <tr>
                 <th scope="col-md-6">Check Số________</th>
                 <th scope="col-md-2">Số đúng</th>
-                <th scope="col-md-3">Vị trí</th>
+                <th scope="col-md-3">Vị trí đúng</th>
             </tr>
         </thead>
         <tbody>
         </tbody>
     </table>
     <button id="play"  type="button" class="btn btn-primary play show">PLAY GAME</button>
+    <button id="lamlai"  type="button" class="btn btn-primary lamlai ">Chơi tiếp</button>
     <div class="fix">
         <div id="mess" ></div>
         <div class="row">
@@ -39,14 +40,16 @@
                 </button>
             </div>
         </div>
-        <div class="input-group " id="numbers">
-            <div id="number" number="6" class="number input-group-text">6</div>
-            <div id="number" number="7" class="number input-group-text">7</div>
-            <div id="number" number="8" class="number input-group-text">8</div>
-            <div id="number" number="9" class="number input-group-text">9</div>
-            <button class="input-group-text bg-success" id="submit" type="submit" style="padding: 0 15px;">
-                    CHECK
-            </button>
+        <div class="row">
+            <div class="input-group " id="numbers">
+                <div id="number" number="6" class="number col-xs-2 col-md-2 input-group-text">6</div>
+                <div id="number" number="7" class="number col-xs-2 col-md-2 input-group-text">7</div>
+                <div id="number" number="8" class="number col-xs-2 col-md-2 input-group-text">8</div>
+                <div id="number" number="9" class="number col-xs-2 col-md-2 input-group-text">9</div>
+                <button class="input-group-text bg-success col-xs-4 col-md-4" id="submit" type="submit" style="padding: 0 15px;">
+                        CHECK
+                </button>
+            </div>
         </div>
     </div>
 
