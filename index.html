@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <button id="play" type="button" class="btn btn-primary">PLAY GAME</button>
+    <table class="table mb" id="myTable">
+        <thead>
+            <tr>
+                <th scope="col-6">________Check Số________</th>
+                <th scope="col-3">Số đúng</th>
+                <th scope="col-3">Vị trí đúng</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <div id="mess" ></div>
+    <div class="input-group " id="numbers">
+        
+        <div id="number" number="1" class="number input-group-text">1</div>
+        <div id="number" number="2" class="number input-group-text">2</div>
+        <div id="number" number="3" class="number input-group-text">3</div>
+        <div id="number" number="4" class="number input-group-text">4</div>
+        <div id="number" number="5" class="number input-group-text">5</div>
+        <button class="input-group-text bg-danger" id="delete" type="submit" style="padding: 0 15px;">
+            <i class="fa-solid fa-delete-left"></i>
+        </button>
+    </div>
+    <div class="input-group " id="numbers">
+        <div id="number" number="6" class="number input-group-text">6</div>
+        <div id="number" number="7" class="number input-group-text">7</div>
+        <div id="number" number="8" class="number input-group-text">8</div>
+        <div id="number" number="9" class="number input-group-text">9</div>
+            <button class="input-group-text bg-success" id="submit" type="submit" style="padding: 0 15px;">
+                CHECK
+            </button>
+        </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script>
+    </script>
+</body>
+</html>
