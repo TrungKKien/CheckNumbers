@@ -8,12 +8,15 @@ canvas{
     background-color: rgba(240, 248, 255, 0);
 }
 body{
-    width: 950px;
+    width: 703px;
     margin: 20px auto;
     padding: 20px;
 }
 .table{
-    width: 76%;
+    width: 100%;
+}
+th{
+    font-weight: 700;
 }
 #mess{
     /* padding-bottom: 20px ; */
@@ -36,4 +39,9 @@ body{
 }
 #numbers{
     margin-bottom: 10px;
+}
+.fix{
+    position: fixed;
+    bottom: 65px;
+    width: 100%;
 }
