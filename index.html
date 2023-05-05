@@ -13,28 +13,28 @@
 <body>
     
 <div class="container">
-    <button id="play" type="button" class="btn btn-primary">PLAY GAME</button>
     <table class="table mb" id="myTable">
         <thead>
             <tr>
-                <th scope="col-6">Check Số</th>
-                <th scope="col-3">Số đúng</th>
-                <th scope="col-3">Vị trí đúng</th>
+                <th scope="col-md-6">Check Số________</th>
+                <th scope="col-md-2">Số đúng</th>
+                <th scope="col-md-3">Vị trí</th>
             </tr>
         </thead>
         <tbody>
         </tbody>
     </table>
+    <button id="play"  type="button" class="btn btn-primary play show">PLAY GAME</button>
     <div class="fix">
         <div id="mess" ></div>
         <div class="row">
             <div class="input-group " id="numbers">    
-                <div id="number" number="1" class="number col-xs-2 input-group-text">1</div>
-                <div id="number" number="2" class="number col-xs-2 input-group-text">2</div>
-                <div id="number" number="3" class="number col-xs-2 input-group-text">3</div>
-                <div id="number" number="4" class="number col-xs-2 input-group-text">4</div>
-                <div id="number" number="5" class="number col-xs-2 input-group-text">5</div>
-                <button class="input-group-text bg-danger col-xs-2" id="delete" type="submit" style="padding: 0 15px;">
+                <div id="number" number="1" class="number col-xs-2 col-md-2 input-group-text">1</div>
+                <div id="number" number="2" class="number col-xs-2 col-md-2 input-group-text">2</div>
+                <div id="number" number="3" class="number col-xs-2 col-md-2 input-group-text">3</div>
+                <div id="number" number="4" class="number col-xs-2 col-md-2 input-group-text">4</div>
+                <div id="number" number="5" class="number col-xs-2 col-md-2 input-group-text">5</div>
+                <button class="input-group-text bg-danger col-xs-2 col-md-2" id="delete" type="submit" style="padding: 0 15px;">
                     <i class="fa-solid fa-delete-left"></i>
                 </button>
             </div>

@@ -1,5 +1,7 @@
 $("#play").click(function () { 
-    alert("Tìm 4 số giống với đề bài")
+    $(".show").removeClass("show");
+    // alert("Tìm 4 số giống với đề bài")
+    $(".fix").addClass("show");
     var random = ranDomArr();
     playGame(random)
 });
