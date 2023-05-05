@@ -34,7 +34,7 @@ th{
 }
 
 .fix{
-    width: 20px;
+    left: 20px;
     position: fixed;
     bottom: 20px;
     width: 95%;
